@@ -35,8 +35,7 @@
         android:allowBackup="true"
         android:appCategory="productivity"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/messages"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:label="LeOS-SMS"
         android:theme="@style/AppTheme">
 
         <activity
