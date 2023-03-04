@@ -42,7 +42,7 @@
                     app:layout_constraintTop_toTopOf="parent"
                     android:src="@drawable/ic_person" />
 
-                <com.goodwy.commons.views.MyTextView
+                <com.leos.commons.views.MyTextView
                     android:id="@+id/sender_name_large"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/sender_photo_large"
                     tools:text="Name"/>
 
-                <com.goodwy.commons.views.MyTextView
+                <com.leos.commons.views.MyTextView
                     android:id="@+id/sender_number_large"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                 android:padding="@dimen/small_margin"
                 android:src="@drawable/ic_check_vector" />
 
-            <com.goodwy.commons.views.MyAutoCompleteTextView
+            <com.leos.commons.views.MyAutoCompleteTextView
                 android:id="@+id/add_contact_or_number"
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
@@ -168,7 +168,7 @@
             android:layout_marginBottom="@dimen/small_margin"
             app:supportSwipeToRefresh="true">
 
-            <com.goodwy.commons.views.MyRecyclerView
+            <com.leos.commons.views.MyRecyclerView
                 android:id="@+id/thread_messages_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -176,7 +176,7 @@
                 android:clipToPadding="false"
                 android:overScrollMode="ifContentScrolls"
                 android:scrollbars="none"
-                app:layoutManager="com.goodwy.commons.views.MyLinearLayoutManager"
+                app:layoutManager="com.leos.commons.views.MyLinearLayoutManager"
                 app:stackFromEnd="true" />
 
         </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
@@ -244,7 +244,7 @@
             android:layout_toEndOf="@+id/thread_add_attachment_holder"
             android:background="@drawable/thread_background" >
 
-            <com.goodwy.commons.views.MyEditText
+            <com.leos.commons.views.MyEditText
                 android:id="@+id/thread_type_message"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -304,7 +304,7 @@
                 tools:visibility="visible" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <com.goodwy.commons.views.MyTextView
+        <com.leos.commons.views.MyTextView
             android:id="@+id/thread_character_counter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

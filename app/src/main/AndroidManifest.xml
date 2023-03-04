@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.goodwy.smsmessenger"
+    package="com.leos.smsmessenger"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.READ_SMS" />
@@ -24,8 +24,8 @@
         tools:node="remove" />
 
     <queries>
-        <package android:name="com.goodwy.contacts.debug" />
-        <package android:name="com.goodwy.contacts" />
+        <package android:name="com.leos.contacts.debug" />
+        <package android:name="com.leos.contacts" />
     </queries>
 
     <uses-feature android:name="android.hardware.telephony" />
@@ -118,19 +118,19 @@
         </activity>
 
         <activity
-            android:name="com.goodwy.commons.activities.AboutActivity"
+            android:name="com.leos.commons.activities.AboutActivity"
             android:exported="false"
             android:label="@string/about"
             android:parentActivityName=".activities.MainActivity" />
 
         <activity
-            android:name="com.goodwy.commons.activities.CustomizationActivity"
+            android:name="com.leos.commons.activities.CustomizationActivity"
             android:exported="false"
             android:label="@string/customize_colors"
             android:parentActivityName=".activities.SettingsActivity" />
 
         <activity
-            android:name="com.goodwy.commons.activities.ManageBlockedNumbersActivity"
+            android:name="com.leos.commons.activities.ManageBlockedNumbersActivity"
             android:exported="false"
             android:label="@string/blocked_numbers"
             android:parentActivityName=".activities.SettingsActivity" />
@@ -142,7 +142,7 @@
             android:parentActivityName=".activities.ThreadActivity" />
 
         <activity
-            android:name="com.goodwy.commons.activities.PurchaseActivity"
+            android:name="com.leos.commons.activities.PurchaseActivity"
             android:exported="false"
             android:label=""
             android:parentActivityName=".activities.MainActivity" />
@@ -204,7 +204,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.goodwy.smsmessenger.action.mark_as_read" />
+                <action android:name="com.leos.smsmessenger.action.mark_as_read" />
             </intent-filter>
         </receiver>
 
@@ -213,7 +213,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.goodwy.smsmessenger.action.reply" />
+                <action android:name="com.leos.smsmessenger.action.reply" />
             </intent-filter>
         </receiver>
 
@@ -222,7 +222,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.goodwy.smsmessenger.action.copy_number" />
+                <action android:name="com.leos.smsmessenger.action.copy_number" />
             </intent-filter>
         </receiver>
 

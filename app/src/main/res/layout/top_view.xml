@@ -17,7 +17,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:src="@drawable/placeholder_contact" />
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/sender_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         app:layout_constraintBottom_toTopOf="@+id/sender_number"
         tools:text="Name"/>
 
-    <com.goodwy.commons.views.MyTextView
+    <com.leos.commons.views.MyTextView
         android:id="@+id/sender_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
